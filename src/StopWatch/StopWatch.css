@@ -1,0 +1,96 @@
+.stopwatch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+  background-color: #000;
+  color: white;
+}
+
+.stopwatch-card {
+  background: #111;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(229, 9, 20, 0.2);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+  border: 1px solid #333;
+}
+
+.stopwatch-title {
+  color: #e50914; /* Using your JoyView red */
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+.time-display {
+  font-size: 4rem;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  margin: 30px 0;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  background: #222;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 12px;
+  cursor: pointer;
+  width: 80px;
+  transition: 0.3s;
+}
+
+.btn:hover:not(:disabled) {
+  background: #333;
+  transform: translateY(-2px);
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.btn-start { border-bottom: 3px solid #28a745; }
+.btn-pause { border-bottom: 3px solid #ffc107; }
+.btn-lap { border-bottom: 3px solid #007bff; }
+.btn-reset { border-bottom: 3px solid #e50914; }
+
+/* Laps Section */
+.laps-section {
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 20px;
+}
+
+.laps-list {
+  max-height: 200px;
+  overflow-y: auto;
+  margin-top: 15px;
+}
+
+.lap-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #222;
+  font-size: 1.1rem;
+}
+
+.lap-item span:first-child {
+  color: #888;
+}
