@@ -1,16 +1,26 @@
-# React + Vite
+# Interactive Stopwatch Web Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek, high-precision stopwatch built with **React** and **Vanilla CSS**. This project was developed as part of the Prodigy InfoTech Web Development Internship (Task 02). It features a modern dark-themed UI, real-time millisecond tracking, and lap management.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* **Start/Pause Functionality:** Smoothly toggle between active and paused states.
+* **Lap Tracking:** Capture and display split times without stopping the main clock.
+* **Reset:** Clear all time data and lap history with a single click.
+* **High Precision:** Accurate time tracking down to 10 milliseconds.
+* **Responsive Design:** Fully optimized for both desktop and mobile viewing.
+* **Modern UI:** A dark, "JoyView" inspired aesthetic using custom CSS and Lucide icons.
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Frontend:** React.js (Hooks: `useState`, `useEffect`, `useRef`)
+* **Styling:** Vanilla CSS (Flexbox, CSS Variables, Media Queries)
+* **Icons:** [Lucide-React](https://lucide.dev/)
 
-## Expanding the ESLint configuration
+## 📦 Installation & Setup
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to run the project locally:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/your-username/PRODIGY_WD_02.git](https://github.com/gelila0913/PRODIGY_WD_02.git)
